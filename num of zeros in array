@@ -1,0 +1,12 @@
+function getofNumberofZeros(arr) {
+    let count = 0;
+    for (var index = 0; index < arr.length; index++) {
+        if (arr[index] == 0) {
+            count++;
+        }
+    }
+    return count;
+}
+var data = [30,4,78,0,20,590,49];
+var result = getofNumberofZeros(data);
+console.log(result);

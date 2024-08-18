@@ -1,0 +1,5 @@
+let p = 12000;
+let n = 12;
+let r = 10;
+let interest = (p * n * r) / 100;
+console.log(interest);

@@ -1,0 +1,12 @@
+function getElementsAtEvenIndex(arr) {
+    let numbersArr = [];
+    for(index = 0; index < arr.length; index++);{
+    if (index % 2 == 0) {
+    numbersArr.push(arr[index]);
+         }
+      }
+      return numbersArr;
+}
+var data = [12,43,65,67,78,89,90];
+var result = getElementsAtEvenIndex(data);
+console.log(result);

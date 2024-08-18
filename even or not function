@@ -1,0 +1,8 @@
+function isEven(x) {
+    var result = x%2 == 0;
+    return result;
+}
+let result1 = isEven(5,8);
+console.log(result1);
+let result2 = isEven(9,10);
+console.log(result2);

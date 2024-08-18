@@ -1,0 +1,12 @@
+function geteEvenNum(arr) {
+    let evenNumbersArr = [];
+    for (index = 0; index < arr.length;index++) {
+        if(arr[index] % 2 == 0) {
+            evenNumbersArr.push(arr[index]);
+        }
+    }
+      return evenNumbersArr;
+}
+var data = [12,34,56,65,89];
+var result = geteEvenNum(data);
+console.log(result);

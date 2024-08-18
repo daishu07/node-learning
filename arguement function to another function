@@ -1,0 +1,16 @@
+function f1(fun, x,y){
+    let result = (fun, x,y);
+    return result;
+}
+var add = function (x,y){
+    let sum = x + y;
+    return sum;
+}
+var sub = function (x,y){
+    let sub = x - y;
+    return sub;
+}
+var r1 = f1(add, 5,9);
+console.log(r1);
+var r2 = f1(sub, 8,3);
+console.log(r2);

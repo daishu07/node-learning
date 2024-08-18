@@ -1,0 +1,6 @@
+var add = (x,y) => {
+    let sum = x + y;
+    return sum;
+}
+var r = add (56,98);
+console.log(r);

@@ -1,0 +1,12 @@
+var x=15;
+var y=5;
+x += y;
+console.log(x);
+x -= y;
+console.log(x);
+x *=y;
+console.log(x);
+x /= y;
+console.log(x);
+x %=y;
+console.log(x);

@@ -1,0 +1,11 @@
+function comparestr(str1 , str2) {
+    if (str1. match(str2)) {
+        return true;
+    } else{
+        return false;
+    }
+}
+let result = comparestr("hi hello" , "hi hello");
+console.log(result);
+let r2 = comparestr("hii" , "hello");
+    console.log(r2);

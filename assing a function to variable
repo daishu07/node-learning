@@ -1,0 +1,6 @@
+var add = function(x,y){
+    let sum = x + y;
+    return sum;
+}
+var result = add (34,65);
+console.log(result);
