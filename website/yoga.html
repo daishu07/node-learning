@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">            
+        <title>Yoga Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <img src="c:\Users\dashm\Downloads\AY_logo_new 1.png"> 
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#"></a>AboutUs</li>
+                        <li><a href="#"></a>OurPrograms</li>
+                        <li><a href="#"></a>Profile</li>
+                       <li> <button type="button" class="btn" onclick="openpopup()"><img src="c:\Users\dashm\Downloads\Ellipse yoga.png"></button></li>
+                       <div class="popup" id="popup">
+                        <h>WELCOME</h>
+                        <button type="button" onclick="openpopup2()">Login</button>
+                        <div class="popup2" id="popup2">
+                            <button type="button">Name</button>
+                            <button type="button">E-mail</button>
+                            <button type="button">Password</button>
+                            <button type="button" onclick="closepopup2()">close</button>
+                        </div>
+                        <button type="button" onclick="openpopup3()">Register</button>
+                        <div class="popup3" id="popup3">
+                            <button type="button">Name</button>
+                            <button type="button">E-mail</button>
+                            <button type="button">Password</button> 
+                             <button type="button">Confirm Password</button>
+                            <button type="button">Mobile no.</button>
+                            <button type="button" onclick="closepopup3()">close</button>
+                        </div>
+                        <button type="button"onclick="closepopup()">Close</button>
+                       </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            let popup = document.getElementById("popup");
+            function openpopup(){
+                popup.classList.add("open-popup");
+            }
+            function closepopup(){
+                popup.classList.remove("open-popup");
+            }
+            let popup2 = document.getElementById("popup2");
+            function openpopup2(){
+                popup2.classList.add("open-popup2");
+            }
+            function closepopup2(){
+                popup2.classList.remove("open-popup2");
+            }
+            let popup3 = document.getElementById("popup3");
+            function openpopup3(){
+                popup3.classList.add("open-popup3");
+            }
+            function closepopup3(){
+                popup3.classList.remove("open-popup3");
+            }
+        </script>
+        <div class="content">
+            <h1> Yoga For Flat Abs</h1>
+            <h3>90 Days Program</h3>
+        </div>
+        <div style="background-color: lightgrey; height: 430px; width:620px ; margin-top:80px;margin-left: 120px;border-radius: 30px;">
+            <h4 style="color: grey;">Introduction video</h4>    
+           <div class="content2">
+           <ul>
+               <li><a href="@"></a>Details</li>
+               <li><a href="@"></a>Techniques</li>
+           </ul>
+            <p>Choose a quiet space so that you can
+                do the session uninterrupted. Make
+                sure there is at least 2 hours gap
+                between a meal and the class. Put all
+                other devices aside and enjoy the
+                session.</p> 
+            </div> 
+        </div>  
+                <div class="pic">AED 99/-</div>
+        <div class="button">
+            <a href="#">
+                <button style="background-color: rgb(247,87,142) ;border-radius:30px;color: aliceblue;  border: none;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px; margin-left: 830px;">Join Now</button>
+                </a>
+               </div>
+                <div>
+                <a href="$">
+                    <button1 style="border-radius: 30px;color: rgb(247,87,142);border: none; padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px; margin-left: 850px;
+                    padding-top: 10px">View Schedule</button>
+                </a>
+                </div>
+                <div class="para">
+                    <img src="c:\Users\dashm\Downloads\pic from yoga page.png"> 
+                    <h1>Structure of program</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+                        elit, sed do eiusmod. </p><br>
+                        <p1>90</p1>
+                        <p2>Days</p2><br>
+                        <p3>Yoga</p3>
+                        <p4>Recovery</p4>
+                        <p5>Rest</p5> 
+                        <p6>Repeat</p6>         
+                    </div>
+                    <div class="about">
+                        <h1>Schedule</h1>
+                        <img src="c:\Users\dashm\Downloads\for yoga webpage.png"> 
+                        <p1>Day 1- Class</p1>
+                        <div class="v"></div>
+                    </div>
+    </body>
+</html>

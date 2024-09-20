@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Demo</title>
+  </head>
+  <body>
+    <h2>Registration form</h2>
+    <form id="registrationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter Your Email">
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+    <script
+<script>
+      const form = document.getElementById('registrationForm');
+      const nameField = document.getElementById('name');
+      const emailField = document.getElementById('email');
+      const message = document.getElementById('message');
+
+      nameField.addEventListener('focus', function(){
+        console.log('Name field is focused here');
+      })
+      emailField.addEventListener('blur',function(){
+        console.log('Email field is lost focus');
+
+      })
+      nameField.addEventL
+<!-- <body>
+    <h1 class="tittle">Hello</h1>
+    <p class="para">This is paragarph.</p>
+    <p class="para">This is second paragraph</p>
+    <button id="changeText">change</button>
+    <button id="changeParagraph">change First Paragraph</button>
+    <button id=" changeAllParagraphs">Change All Paragraphs</button>
+    <script>
+        let tittle = document.querySelector("h1");
+      let firstParagarph = document.querySelector(".para");
+      let secondParagraph = document.querySelectorAll(".para
+
+let firstParagarph = document.querySelector(".para");
+      let secondParagraph = document.querySelectorAll(".para");
+      let changeText = document.getElementById("changeText");
+      let changeParagraph = document.getElementById("changeParagraph");
+      let changeAllParagraph = document.getElementById("changeAllParagraphs");
+
+      changeText.addEventListener("click", function () {
+        // tittle.textContent = "Text has changed";
+        alert('Parent clicked Bubling');
+      } ,false);
